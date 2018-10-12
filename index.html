@@ -1,18 +1,28 @@
 <script src="/bumed/HRO/InfoSys/Scripts/script.js" type="text/javascript"></script>
-<link rel="stylesheet" type="text/css" href="/bumed/HRO/InfoSys/Scripts/rpsstyle.css" />
+<link rel="stylesheet" type="text/css" href="/bumed/HRO/InfoSys/Scripts/rpsstyle2.css" />
 
 
+<div class="container">
 
-<div class="flex-container">
-    <div class="btn" id="rock">Rock</div>
-    <div class="btn" id="paper">Paper</div>
-    <div class="btn" id="scissors">Scissors</div>
+    <div class="btn-container">
+        <div class="btn" id="rock">Rock</div>
+        <div class="btn" id="paper">Paper</div>
+        <div class="btn" id="scissors">Scissors</div>
+    </div>
+
+    <div class="game-container" id="game"></div>
 
     <div class="scoreBoard">
         <div class="scoreBoard_user">UserScore</div>
         <span id="userScore">0</span>
         <div class="scoreBoard_computer">ComputerScore</div>
         <span id="computerScore">0</span>
+        <div class="scoreBoard_ties">Ties</div>
+        <span id="tieScore">0</span>
     </div>
 
+    <div class="counts">
+    <div>Games Played</div>
+    <span id="games_played">0</span>
+    </div>
 </div>

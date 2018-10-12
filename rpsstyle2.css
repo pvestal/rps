@@ -1,0 +1,80 @@
+#s4-topheader2 {
+    /*sp branding removes visibility*/
+    display: none;
+}
+
+#s4-titlerow {
+    /*sp branding removes visibility*/
+    display: none;
+}
+
+.container {
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.btn-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;   /* flex-start flex-end center space-around space-between space-evenly */
+
+}
+
+.btn {
+    padding: 5px;
+    background-color: #eaedfa;
+    border: 3px solid #000000;
+}
+
+.game-container {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.scoreBoard {
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #eaedfa;
+    display: flex;
+    justify-content: space-evenly;  /* flex-start flex-end center space-around space-between space-evenly */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-out {
+	opacity: 1;
+	animation-name: fadeOutOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 1.5s;
+}
+
+@keyframes fadeOutOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
